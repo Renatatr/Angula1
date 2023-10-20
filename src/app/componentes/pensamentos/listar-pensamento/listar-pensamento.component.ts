@@ -7,15 +7,20 @@ import { Component } from '@angular/core';
 })
 export class ListarPensamentoComponent {
   listaPensamentos = [
-    // {
-    //   conteudo: 'qwer',
-    //   autoria: 'abc',
-    //   modelo: 'modelo2'
-    // },
-    // {
-    //   conteudo: 'I love Angular',
-    //   autoria: 'Nay',
-    //   modelo: 'modelo3'
-    // }
+    {
+      conteudo: 'qwer',
+      autoria: 'abc',
+      modelo: 'modelo2'
+    },
+    {
+      conteudo: 'I love Angular',
+      autoria: 'Nay',
+      modelo: 'modelo3'
+    },
+    {
+      conteudo: 'I love AngularI love AngularI love AngularI love AngularI love AngularI love AngularI love AngularI love AngularI love AngularI love AngularI love AngularI love AngularI love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular love Angular',
+      autoria: 'Nay',
+      modelo: 'modelo1'
+    }
   ];
 }
