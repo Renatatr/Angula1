@@ -7,6 +7,7 @@ import { PensamentoService } from '../pensamento.service';
   templateUrl: './pensamento.component.html',
   styleUrls: ['./pensamento.component.css']
 })
+
 export class PensamentoComponent {
 
   constructor(private service: PensamentoService) { }
@@ -18,6 +19,8 @@ export class PensamentoComponent {
     modelo: 'modelo2',
     favorito: false
   }
+
+  @Input() listaFavoritos: Pensamento[] = [];
 
   larguraPensamento(): string {
     if(this.pensamento.conteudo.length >= 256){
@@ -34,6 +37,8 @@ export class PensamentoComponent {
   }
 
   atualizarFavoritos() {
-    this.service.mudarFavorito(this.pensamento).subscribe();
+    this.service.mudarFavorito(this.pensamento).subscribe(() => {
+      this.listaFavoritos.splice(this.listaFavoritos.indexOf(this.pensamento), 1)
+    });
   }
 }

@@ -25,7 +25,7 @@
       "conteudo": "Aprendendo Angular",
       "autoria": "Dev",
       "modelo": "modelo2",
-      "favorito": true,
+      "favorito": false,
       "id": 6
     },
     {
@@ -39,7 +39,7 @@
       "conteudo": "Aprendendo Angular",
       "autoria": "Dev",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 8
     },
     {
@@ -67,14 +67,14 @@
       "conteudo": "o",
       "autoria": "",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 13
     },
     {
       "conteudo": "234",
       "autoria": "hr",
       "modelo": "modelo2",
-      "favorito": true,
+      "favorito": false,
       "id": 14
     },
     {
@@ -95,7 +95,7 @@
       "conteudo": "teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste ",
       "autoria": "acdw",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 17
     }
   ]
