@@ -14,7 +14,8 @@ export class ExcluirPensamentoComponent {
     id: 0,
     conteudo: 'I love angular',
     autoria: 'abc',
-    modelo: 'modelo2'
+    modelo: 'modelo2',
+    favorito: false
   }
 
   constructor(private service: PensamentoService,
